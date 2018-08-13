@@ -88,7 +88,7 @@ function getSheet(options) {
 function formatSheet(sheet) {
   deleteOutsideDataRange(sheet);
   formatTitleRow(sheet);
-  autoResizeColumns(sheet);
+  //autoResizeColumns(sheet);
 }
 
 /**
